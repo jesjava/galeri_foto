@@ -10,6 +10,7 @@ class GaleriFoto extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'This title',
       home: FormWidget(),
     );
   }
